@@ -3,12 +3,8 @@ package com.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.entity.Product;
-
+import com.entity.User;
 @Repository
-public interface product  extends JpaRepository<Product, Integer>{
+public interface user extends JpaRepository<User, Integer>{
 
-	void save(product product);
-
-	
 }
